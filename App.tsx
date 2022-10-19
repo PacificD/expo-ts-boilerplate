@@ -1,7 +1,7 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-08-28 18:53:45
- * @LastEditTime: 2022-10-18 22:49:06
+ * @LastEditTime: 2022-10-19 15:06:51
  * @LastEditors: Pacific_D
  * @Description:
  * @FilePath: \expo-ts-boilerplate\App.tsx
@@ -14,7 +14,7 @@ import {
   createDrawerNavigator,
   DrawerContentComponentProps
 } from '@react-navigation/drawer'
-import Logo from './assets/logo.svg'
+import Logo from './src/assets/logo.svg'
 
 type DrawerScreenComponent = {
   navigation: DrawerContentComponentProps['navigation']
