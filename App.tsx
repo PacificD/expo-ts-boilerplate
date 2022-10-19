@@ -1,20 +1,19 @@
 /*
  * @Author: Pacific_D
  * @Date: 2022-08-28 18:53:45
- * @LastEditTime: 2022-10-19 15:06:51
+ * @LastEditTime: 2022-10-19 21:43:30
  * @LastEditors: Pacific_D
  * @Description:
  * @FilePath: \expo-ts-boilerplate\App.tsx
  */
 import React from 'react'
-import { Text } from 'native-base'
-import AppContainer from './src/components/app-container'
+import AppContainer from '@components/app-container'
 import { Button, View } from 'react-native'
 import {
   createDrawerNavigator,
   DrawerContentComponentProps
 } from '@react-navigation/drawer'
-import Logo from './src/assets/logo.svg'
+import Logo from '@assets/logo.svg'
 
 type DrawerScreenComponent = {
   navigation: DrawerContentComponentProps['navigation']

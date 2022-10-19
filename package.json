@@ -27,6 +27,7 @@
   "dependencies": {
     "@react-navigation/drawer": "^6.1.8",
     "@react-navigation/native": "^6.0.6",
+    "babel-plugin-module-resolver": "^4.1.0",
     "expo": "~46.0.9",
     "expo-linking": "^3.2.2",
     "expo-status-bar": "~1.4.0",
